@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card-grid {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    max-width: 340px; 
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 150px;
+    margin: 6px;
+    border-radius: 12px;
+    background-color: black;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    color: white;
+}
